@@ -14,7 +14,18 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+  </dependencies><distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://13.233.186.215:8081/repository/nexusrepo-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://13.233.186.215:8081/repository/nexusrepo-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <finalName>nexusrepo</finalName>
   </build>
