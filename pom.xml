@@ -16,12 +16,12 @@
     </dependency>
   </dependencies><distributionManagement>
     <repository>
-      <id>nexus</id>
+      <id>nexusrepo</id>
       <name>Releases</name>
       <url>http://13.233.186.215:8081/repository/nexusrepo-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
+      <id>nexusrepo[</id>
       <name>Snapshot</name>
       <url>http://13.233.186.215:8081/repository/nexusrepo-snapshots/</url>
     </snapshotRepository>
